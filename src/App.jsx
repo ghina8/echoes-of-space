@@ -1,15 +1,23 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Explore from "./pages/Explore";
+import Equipment from "./pages/Equipment";
+import Story from "./pages/Story";
+import Quiz from "./pages/Quiz";
+
 function App() {
   return (
-    <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-center">
-      <h1 className="text-5xl font-bold text-white">
-        Echoes of Space
-      </h1>
-
-      <p className="mt-4 text-xl text-purple-300">
-        Forgotten Machines. Unforgettable Stories.
-      </p>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/explore" element={<Explore />} />
+        <Route path="/explore/:planet" element={<Equipment />} />
+        <Route path="/story/:id" element={<Story />} />
+        <Route path="/quiz" element={<Quiz />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
