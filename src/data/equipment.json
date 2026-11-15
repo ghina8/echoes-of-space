@@ -1,0 +1,164 @@
+[
+  {
+    "id": "apollo-11-eagle",
+    "name": "Eagle",
+    "title": "The First Footsteps",
+    "planet": "Moon",
+    "type": "Lunar Module",
+    "mission": "Apollo 11",
+    "year": 1969,
+    "location": "Sea of Tranquility",
+    "status": "Descent stage remains on the Moon",
+    "launchDate": "1969-07-16",
+    "landingDate": "1969-07-20",
+    "description": "Meet Eagle, the spacecraft that helped humans take their first steps on the Moon in 1969. Part of it is still there today!",
+    "purpose": "Carry astronauts to the Moon and return them to lunar orbit.",
+    "technology": "Eagle had two sections: the descent stage for landing and the ascent stage for returning to lunar orbit.",
+    "achievements": [
+      "First human landing on the Moon",
+      "Supported lunar sample collection and scientific experiments"
+    ],
+    "whyLeftBehind": "My lower section became the launch platform for the astronauts and was intentionally left on the Moon.",
+    "legacy": "I helped humanity achieve its first crewed Moon landing.",
+    "funFact": "Eagle carries a commemorative plaque.",
+    "question": "Why did engineers design Eagle in two separate sections?",
+    "image": "images/eagle.jpg",
+    "sources": [
+      {
+        "name": "Apollo Lunar Modules",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+        "type": "provided",
+        "publisher": "NASA"
+      },
+      {
+        "name": "Apollo 11 Mission Overview",
+        "url": "https://www.nasa.gov/history/apollo-11-mission-overview/",
+        "type": "additional",
+        "publisher": "NASA"
+      }
+    ],
+    "imageStatus": "Placeholder path; official image file and credit must be confirmed",
+    "storyNote": "Creative educational narration based on mission facts; not a NASA quotation."
+  },
+  {
+    "id": "apollo-15-rover",
+    "name": "Apollo 15 Lunar Rover",
+    "title": "Wheels on the Moon",
+    "planet": "Moon",
+    "type": "Electric Rover",
+    "mission": "Apollo 15",
+    "year": 1971,
+    "location": "Hadley-Apennine",
+    "status": "Parked on the Moon",
+    "launchDate": "1971-07-26",
+    "landingDate": "1971-07-30",
+    "description": "Imagine driving a car on the Moon! In 1971, the Apollo 15 Lunar Rover made that dream a reality.",
+    "purpose": "Help astronauts travel farther and carry equipment and lunar samples.",
+    "technology": "Battery-powered motors and wire-mesh wheels helped me travel across rough lunar terrain.",
+    "achievements": [
+      "First vehicle driven by humans on the Moon",
+      "Traveled 27.9 kilometers"
+    ],
+    "whyLeftBehind": "I was parked on the Moon after completing my mission. I was not designed to return to Earth.",
+    "legacy": "I showed how vehicles could help astronauts explore larger areas.",
+    "funFact": "I traveled 27.9 kilometers without gasoline!",
+    "question": "How would you design a vehicle for the Moon?",
+    "image": "images/lunar-rover.jpg",
+    "sources": [
+      {
+        "name": "Lunar Roving Vehicles",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+        "type": "provided",
+        "publisher": "NASA"
+      },
+      {
+        "name": "Apollo 15 Mission Summary",
+        "url": "https://www.nasa.gov/wp-content/uploads/static/history/SP-4029/Apollo_15a_Summary.htm",
+        "type": "additional",
+        "publisher": "NASA"
+      }
+    ],
+    "imageStatus": "Placeholder path; official image file and credit must be confirmed",
+    "storyNote": "Creative educational narration based on mission facts; not a NASA quotation."
+  },
+  {
+    "id": "opportunity",
+    "name": "Opportunity",
+    "title": "The Rover That Never Gave Up",
+    "planet": "Mars",
+    "type": "Robotic Rover",
+    "mission": "Mars Exploration Rover",
+    "year": 2004,
+    "location": "Perseverance Valley",
+    "landingSite": "Meridiani Planum",
+    "status": "Inactive",
+    "launchDate": "2003-07-07",
+    "landingDate": "2004-01-25",
+    "missionEnd": "2019-02-13",
+    "description": "Meet Opportunity! My mission was supposed to last only 90 Martian days, but I explored Mars for almost 15 years.",
+    "purpose": "Search for evidence of ancient water in Martian rocks and soil.",
+    "technology": "I used solar panels, cameras and scientific instruments to study rocks.",
+    "achievements": [
+      "Found evidence of ancient water and potentially habitable environments",
+      "Traveled 45.16 kilometers"
+    ],
+    "whyLeftBehind": "A massive dust storm in 2018 blocked sunlight from reaching my solar panels. NASA lost contact with me.",
+    "legacy": "My discoveries helped scientists understand the history of Mars.",
+    "funFact": "I traveled farther than a marathon on Mars!",
+    "question": "What other energy source could help a rover survive a dust storm?",
+    "image": "images/opportunity.jpg",
+    "sources": [
+      {
+        "name": "Spirit & Opportunity",
+        "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+        "type": "provided",
+        "publisher": "NASA"
+      },
+      {
+        "name": "Opportunity",
+        "url": "https://science.nasa.gov/mission/mer-opportunity/",
+        "type": "additional",
+        "publisher": "NASA"
+      }
+    ],
+    "imageStatus": "Placeholder path; official image file and credit must be confirmed",
+    "storyNote": "Creative educational narration based on mission facts; not a NASA quotation."
+  },
+  {
+    "id": "ingenuity",
+    "name": "Ingenuity",
+    "title": "A Dream That Learned to Fly",
+    "planet": "Mars",
+    "type": "Robotic Helicopter",
+    "mission": "Mars 2020",
+    "year": 2021,
+    "location": "Jezero Crater",
+    "status": "Permanently grounded",
+    "firstFlight": "2021-04-19",
+    "lastFlight": "2024-01-18",
+    "missionEnd": "2024-01-25",
+    "description": "Meet Ingenuity, the little helicopter that made history by flying on another planet!",
+    "purpose": "Demonstrate powered flight in the thin Martian atmosphere.",
+    "technology": "My lightweight body and fast-spinning rotor blades helped me lift off in the thin atmosphere.",
+    "achievements": [
+      "First powered, controlled flight on another planet",
+      "Completed 72 flights",
+      "Supported aerial scouting"
+    ],
+    "whyLeftBehind": "My rotor blades were damaged during my final flight in January 2024, preventing further flights.",
+    "legacy": "I opened new possibilities for exploring planets from the sky.",
+    "funFact": "I was designed for five test flights but completed 72!",
+    "question": "How could flying robots help humans explore Mars?",
+    "image": "images/ingenuity.jpg",
+    "sources": [
+      {
+        "name": "Ingenuity Mars Helicopter",
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+        "type": "provided",
+        "publisher": "NASA"
+      }
+    ],
+    "imageStatus": "Placeholder path; official image file and credit must be confirmed",
+    "storyNote": "Creative educational narration based on mission facts; not a NASA quotation."
+  }
+]
