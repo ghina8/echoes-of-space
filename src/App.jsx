@@ -17,6 +17,7 @@ function App() {
         <Route path="/explore/:planet" element={<Equipment />} />
         <Route path="/story/:id" element={<Story />} />
         <Route path="/quiz" element={<Quiz />} />
+        <Route path="/quiz/:id" element={<Quiz />} />
       </Routes>
     </BrowserRouter>
   );

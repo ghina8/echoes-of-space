@@ -153,6 +153,7 @@ function StoryExperience({ item, story }) {
 
   const storyRef = useRef(null);
   const endingRef = useRef(null);
+  const challengeRef = useRef(null);
 
   const accent =
     item.planet === "Mars" ? "#fb923c" : "#a78bfa";
@@ -169,18 +170,21 @@ function StoryExperience({ item, story }) {
   };
 
   const nextChapter = () => {
-    if (chapter < story.chapters.length - 1) {
-      setChapter(chapter + 1);
-    } else {
-      setCompleted(true);
+  if (chapter < story.chapters.length - 1) {
+    setChapter(chapter + 1);
+  } else {
+    setCompleted(true);
 
+    requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        endingRef.current?.scrollIntoView({
-          behavior: "smooth"
+        challengeRef.current?.scrollIntoView({
+          behavior: "smooth",
+          block: "center",
         });
       });
-    }
-  };
+    });
+  }
+};
 
   return (
     <main
@@ -450,6 +454,60 @@ function StoryExperience({ item, story }) {
         </div>
 
         <div className="text-center mt-16">
+
+{/* MISSION CHALLENGE */}
+
+{completed && (
+  <section
+   ref={challengeRef}
+    className="my-12 w-full rounded-3xl border p-8 text-center md:p-12"
+    style={{
+      borderColor: `${accent}55`,
+      background: `linear-gradient(135deg, ${accent}18, #0b1120)`,
+      boxShadow: `0 0 40px ${accent}15`,
+    }}
+  >
+    <div className="mb-5 text-5xl">
+      🏆
+    </div>
+
+    <p
+      className="mb-4 text-sm font-semibold tracking-[0.3em]"
+      style={{ color: accent }}
+    >
+      JOURNEY COMPLETED
+    </p>
+
+    <h2 className="text-3xl font-black text-white md:text-4xl">
+      Ready for Your Challenge?
+    </h2>
+
+    <p className="mx-auto mt-5 max-w-xl leading-relaxed text-gray-400">
+      You've explored my story. Now let's see what
+      you've learned during our adventure!
+    </p>
+
+    <p
+      className="mt-5 text-sm font-semibold"
+      style={{ color: accent }}
+    >
+      3 Questions · 1 Mission · New Discoveries
+    </p>
+
+    <Link
+      to={`/quiz/${item.id}`}
+      onClick={() => window.scrollTo(0, 0)}
+      className="mt-8 inline-flex items-center justify-center gap-3 rounded-full px-8 py-4 font-bold text-[#030712] transition-all hover:scale-105"
+      style={{
+        backgroundColor: accent,
+        boxShadow: `0 0 30px ${accent}44`,
+      }}
+    >
+      Accept the Challenge →
+    </Link>
+  </section>
+)}
+
 
           <Link
             to="/explore"
