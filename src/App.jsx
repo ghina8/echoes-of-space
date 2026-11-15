@@ -5,10 +5,12 @@ import Explore from "./pages/Explore";
 import Equipment from "./pages/Equipment";
 import Story from "./pages/Story";
 import Quiz from "./pages/Quiz";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <BrowserRouter>
+    <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/explore" element={<Explore />} />
