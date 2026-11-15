@@ -13,7 +13,7 @@ const stories = {
     chapters: [
       {
         title: "A Dream Beyond Earth",
-        image: "scene1.jpg",
+        image: "scene1.webp",
         text: "In July 1969, I left Earth carrying an extraordinary dream. My mission was to help two astronauts reach a world no human had ever walked on."
       },
       {
@@ -41,7 +41,7 @@ const stories = {
     chapters: [
       {
         title: "Built for Adventure",
-        image: "scene1.jpg",
+        image: "scene1.webp",
         text: "Engineers built me to travel across a world without roads. With electric motors and special wire-mesh wheels, I was ready for the Moon."
       },
       {
@@ -74,7 +74,7 @@ const stories = {
       },
       {
         title: "Mars Became My Home",
-        image: "scene1.jpg",
+        image: "scene1.webp",
         text: "Powered by sunlight, I traveled across dusty plains and ancient craters. My cameras and scientific instruments helped me investigate the secrets beneath my wheels."
       },
       {
@@ -84,7 +84,7 @@ const stories = {
       },
       {
         title: "My Final Signal",
-        image: "scene1.jpg",
+        image: "scene1.webp",
         text: "In 2018, a powerful dust storm blocked the sunlight I needed. Communication with Earth ended. I remain on Mars, but my discoveries continue to inspire scientists."
       }
     ]
@@ -102,7 +102,7 @@ const stories = {
       },
       {
         title: "Against All Odds",
-        image: "scene1.jpg",
+        image: "scene1.webp",
         text: "On April 19, 2021, I rose above the Martian surface and made history as the first aircraft to achieve powered, controlled flight on another planet."
       },
       {
