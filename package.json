@@ -1,8 +1,32 @@
+
 {
   "name": "echoes-of-space",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "An interactive educational storytelling platform for the 2026 NASA Space Apps Challenge, exploring abandoned space equipment on the Moon and Mars.",
+  "author": "Team GY - Ghina Tayba and Yasmin Deeb",
+  "homepage": "https://echoes-of-space-beta.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghina8/echoes-of-space.git"
+  },
+  "aiDisclosure": {
+    "tool": "OpenAI ChatGPT",
+    "provider": "OpenAI",
+    "url": "https://chatgpt.com/",
+    "usage": [
+      "Project brainstorming and planning",
+      "Code generation and debugging",
+      "Educational storytelling",
+      "JSON data organization",
+      "Quiz and glossary development",
+      "Documentation and presentation preparation"
+    ],
+    "scientificDataSource": "Official NASA mission resources",
+    "humanOversight": "Team GY",
+    "documentation": "AI_DISCLOSURE.md"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

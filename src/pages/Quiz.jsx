@@ -1,4 +1,10 @@
-
+/**
+ * Project: Echoes of Space
+ * Team: GY - NASA Space Apps Challenge 2026
+ * AI-assisted development using OpenAI ChatGPT.
+ * Reviewed and customized by Team GY.
+ * See AI_DISCLOSURE.md for details.
+ */
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";

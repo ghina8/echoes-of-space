@@ -31,14 +31,20 @@
         "publisher": "NASA"
       },
       {
-        "name": "Apollo 11 Mission Overview",
-        "url": "https://www.nasa.gov/history/apollo-11-mission-overview/",
-        "type": "additional",
-        "publisher": "NASA"
-      }
+  "name": "Apollo 11 Mission Overview",
+  "url": "https://www.nasa.gov/missions/apollo/apollo-11-mission-overview/",
+  "type": "additional",
+  "publisher": "NASA"
+}
     ],
     "imageStatus": "Placeholder path; official image file and credit must be confirmed",
-    "storyNote": "Creative educational narration based on mission facts; not a NASA quotation."
+    "storyNote": "Creative educational narration based on mission facts; not a NASA quotation.",
+"aiAttribution": {
+  "tool": "OpenAI ChatGPT",
+  "usage": "Assisted with educational content, storytelling and data organization.",
+  "factualSource": "Official NASA mission resources",
+  "humanOversight": "Team GY"
+}
   },
   {
     "id": "apollo-15-rover",
@@ -72,14 +78,20 @@
         "publisher": "NASA"
       },
       {
-        "name": "Apollo 15 Mission Summary",
-        "url": "https://www.nasa.gov/wp-content/uploads/static/history/SP-4029/Apollo_15a_Summary.htm",
-        "type": "additional",
-        "publisher": "NASA"
-      }
+  "name": "Apollo 15 Mission Details",
+  "url": "https://www.nasa.gov/missions/apollo/apollo-15-mission-details/",
+  "type": "additional",
+  "publisher": "NASA"
+}
     ],
     "imageStatus": "Placeholder path; official image file and credit must be confirmed",
-    "storyNote": "Creative educational narration based on mission facts; not a NASA quotation."
+    "storyNote": "Creative educational narration based on mission facts; not a NASA quotation.",
+"aiAttribution": {
+  "tool": "OpenAI ChatGPT",
+  "usage": "Assisted with educational content, storytelling and data organization.",
+  "factualSource": "Official NASA mission resources",
+  "humanOversight": "Team GY"
+}
   },
   {
     "id": "opportunity",
@@ -122,7 +134,13 @@
       }
     ],
     "imageStatus": "Placeholder path; official image file and credit must be confirmed",
-    "storyNote": "Creative educational narration based on mission facts; not a NASA quotation."
+   "storyNote": "Creative educational narration based on mission facts; not a NASA quotation.",
+"aiAttribution": {
+  "tool": "OpenAI ChatGPT",
+  "usage": "Assisted with educational content, storytelling and data organization.",
+  "factualSource": "Official NASA mission resources",
+  "humanOversight": "Team GY"
+}
   },
   {
     "id": "ingenuity",
@@ -159,6 +177,12 @@
       }
     ],
     "imageStatus": "Placeholder path; official image file and credit must be confirmed",
-    "storyNote": "Creative educational narration based on mission facts; not a NASA quotation."
+   "storyNote": "Creative educational narration based on mission facts; not a NASA quotation.",
+"aiAttribution": {
+  "tool": "OpenAI ChatGPT",
+  "usage": "Assisted with educational content, storytelling and data organization.",
+  "factualSource": "Official NASA mission resources",
+  "humanOversight": "Team GY"
+}
   }
 ]

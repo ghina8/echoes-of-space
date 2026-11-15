@@ -1,0 +1,13 @@
+
+{
+  "dataset": "Echoes of Space Educational Glossary",
+  "relatedFile": "glossary.json",
+  "language": "English",
+  "targetAudience": "Young learners aged 10-18",
+  "aiAttribution": {
+    "tool": "OpenAI ChatGPT",
+    "usage": "Assisted with writing and simplifying scientific definitions for educational purposes.",
+    "humanOversight": "Team GY"
+  },
+  "contentNote": "Definitions are simplified educational explanations, not direct NASA quotations."
+}
